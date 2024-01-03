@@ -38,7 +38,7 @@ header {
 
 .nav-bar a {
   font-size: 18px;
-  color: #000000;
+  color: white;
   font-weight: 500;
   text-decoration: none;
   font-weight: 800;
@@ -55,4 +55,106 @@ header {
   font-family: Gothic;
   font-weight: 800;
   font-size: 50px;
+  color: white;
+}
+
+.main-content {
+  background-color: #000000e5;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding-top: 280px;
+}
+
+.content {
+  text-align: justify;
+  color: white;
+  text-indent: 10px;
+  width: 120vh;
+}
+
+.content > h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 800;
+}
+
+img {
+  width: 700px;
+}
+
+.notorius {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 210px;
+  background-color: #000000e5;
+}
+
+.artist > div {
+  padding-bottom: 50px;
+}
+
+.artist > div > h3 {
+  text-align: center;
+  color: white;
+}
+
+.artist > div > img {
+  border-radius: 5px;
+  box-shadow: 8px 8px 5px black;
+}
+
+.photografer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000e5;
+  padding: 30px 30px;
+}
+
+.Martha {
+  width: 500px;
+}
+
+.Henry {
+  width: 500px;
+}
+
+.Martha > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.Henry > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.Martha > h3 {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  padding: 20px 0px;
+}
+
+.Henry > h3 {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  padding: 20px 0px;
+}
+
+.Martha > p {
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.Henry > p {
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
 }
